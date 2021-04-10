@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,7 +50,6 @@
 				76B4B3CD0E611529769F44B0 /* Pods-Apex Legends Companion App.debug.xcconfig */,
 				1E37EF6CE9DCA68C98C78827 /* Pods-Apex Legends Companion App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,14 +76,30 @@
 			children = (
 				A759C65B26225842007E31C9 /* AppDelegate.swift */,
 				A759C65D26225842007E31C9 /* SceneDelegate.swift */,
-				A759C65F26225842007E31C9 /* ViewController.swift */,
-				A759C66126225842007E31C9 /* Main.storyboard */,
+				A759C68B26226967007E31C9 /* View */,
+				A759C68926226950007E31C9 /* Controller */,
 				A759C66426225842007E31C9 /* Assets.xcassets */,
 				A759C66626225842007E31C9 /* LaunchScreen.storyboard */,
 				A759C66926225842007E31C9 /* Info.plist */,
 				A759C6702622590C007E31C9 /* GoogleService-Info.plist */,
 			);
 			path = "Apex Legends Companion App";
+			sourceTree = "<group>";
+		};
+		A759C68926226950007E31C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A759C65F26225842007E31C9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A759C68B26226967007E31C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A759C66126225842007E31C9 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E8C24AE8A73F1EEDDC375558 /* Frameworks */ = {
