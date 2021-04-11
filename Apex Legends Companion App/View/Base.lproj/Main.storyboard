@@ -22,7 +22,6 @@
                         <segue destination="UML-ST-WfK" kind="relationship" relationship="viewControllers" id="jGB-tR-anN"/>
                         <segue destination="FtC-dq-RHQ" kind="relationship" relationship="viewControllers" id="KNS-q9-PJB"/>
                         <segue destination="Wpm-3w-5cP" kind="relationship" relationship="viewControllers" id="UvP-cr-deH"/>
-                        <segue destination="yU8-2X-yD6" kind="relationship" relationship="viewControllers" id="UDP-0B-NBR"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwE-fg-xrd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -44,22 +43,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fve-7E-4fG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1970" y="-42"/>
-        </scene>
-        <!--More-->
-        <scene sceneID="Dhq-uQ-t7d">
-            <objects>
-                <viewController id="yU8-2X-yD6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gJC-g0-dAV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="nFj-1f-iVc"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="More" id="bIb-Ho-MNW"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bgO-30-FaC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1799" y="-42"/>
         </scene>
         <!--Profile-->
         <scene sceneID="t16-M4-JxD">
@@ -116,9 +99,6 @@
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
