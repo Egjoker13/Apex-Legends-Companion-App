@@ -22,6 +22,7 @@
                         <segue destination="UML-ST-WfK" kind="relationship" relationship="viewControllers" id="jGB-tR-anN"/>
                         <segue destination="FtC-dq-RHQ" kind="relationship" relationship="viewControllers" id="KNS-q9-PJB"/>
                         <segue destination="Wpm-3w-5cP" kind="relationship" relationship="viewControllers" id="UvP-cr-deH"/>
+                        <segue destination="Zmy-S8-R9e" kind="relationship" relationship="viewControllers" id="Z8K-ag-MEA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwE-fg-xrd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -60,6 +61,22 @@
             </objects>
             <point key="canvasLocation" x="788" y="-42"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="VqC-a2-7SQ">
+            <objects>
+                <viewController id="Zmy-S8-R9e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cvi-JA-WSa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MCu-Vh-MzU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="DrC-4C-RqG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKO-du-UlZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1870" y="-42"/>
+        </scene>
         <!--News Feed-->
         <scene sceneID="4nh-3X-aQn">
             <objects>
@@ -94,6 +111,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
